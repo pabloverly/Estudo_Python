@@ -19,3 +19,4 @@
 resumo
 new, add, build, publish
 
+### poetry update (atualizacao das lib)
