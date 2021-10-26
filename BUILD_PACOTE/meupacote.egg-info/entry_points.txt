@@ -1,0 +1,3 @@
+[console_scripts]
+my-cli = package.myLib:cli
+

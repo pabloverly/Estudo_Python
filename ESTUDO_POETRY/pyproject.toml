@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "estudo_pkg"
+version = "0.1.1"
+description = ""
+authors = ["pabloverly <pablopierre.pv@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+httpx = "^0.20.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry.scripts]
+estudocli = 'estudo_pkg.myLib:cli'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
