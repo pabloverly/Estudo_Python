@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "estudo_kivy"
+version = "0.1.0"
+description = ""
+authors = ["pabloverly <pablopierre.pv@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+Kivy = "^2.0.0"
+kivymd = {git = "https://github.com/kivymd/KivyMD.git", rev = "master"}
+
+[tool.poetry.dev-dependencies]
+buildozer = "^1.2.0"
+Cython = "^0.29.24"
+watchdog = "^2.1.6"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
